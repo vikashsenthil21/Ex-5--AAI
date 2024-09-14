@@ -12,7 +12,7 @@ Step 3: Simulate the movement of the object for a number of time steps, generati
 Step 3: For each measurement, predict the next state using kf.predict().<BR>
 Step 4: Update the state estimate based on the measurement using kf.update().<BR>
 Step 5: Store the estimated state in a list.<BR>
-Step 6: Plot the true and estimated positions.<BR>4
+Step 6: Plot the true and estimated positions.<BR>
 
 <H3>Program:</H3>
 
@@ -48,4 +48,4 @@ class KalmanFilter:
 
 
 <H3>Results:</H3>
-Thus, Kalman filter is implemented to predict the next position and   velocity in Python
+Thus, Kalman filter is implemented to predict the next position and  velocity in Python
